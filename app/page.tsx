@@ -24,6 +24,7 @@ export default function Home() {
     <ThreeDCardDemo />
      </div> 
      <LayoutGridDemo/>
+     NEW COLLECTION 
      <ParentComponent></ParentComponent>
     </main>
   );
