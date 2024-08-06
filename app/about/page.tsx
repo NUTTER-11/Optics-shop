@@ -58,7 +58,7 @@ const About: React.FC = () => {
               <GlassesIcon className="h-16 w-16 text-primary-foreground" />
             </div>
             <h1 className="mb-4 text-4xl font-bold tracking-tight text-primary-foreground sm:text-5xl md:text-6xl">
-              Clarity Optics
+              Sharma Optics
             </h1>
             <p className="max-w-3xl text-lg text-primary-foreground">
               Providing high-quality eyewear and exceptional eye care services to our community since 1985.
@@ -72,7 +72,7 @@ const About: React.FC = () => {
             <div>
               <h2 className="mb-4 text-3xl font-bold tracking-tight">Our History</h2>
               <p className="text-muted-foreground">
-                Clarity Optics was founded in 1985 by a team of passionate opticians who were committed to providing the
+                Sharma Optics was founded in 1985 by a team of passionate opticians who were committed to providing the
                 highest quality eyewear and eye care services to our local community. Over the years, we&apos;ve grown to
                 become a trusted and respected name in the industry, known for our expertise, attention to detail, and
                 unwavering dedication to customer satisfaction.
@@ -81,7 +81,7 @@ const About: React.FC = () => {
             <div>
               <h2 className="mb-4 text-3xl font-bold tracking-tight">Quality & Service</h2>
               <p className="text-muted-foreground">
-                At Clarity Optics, we take pride in our commitment to quality and customer service. Our team of
+                At Sharma Optics, we take pride in our commitment to quality and customer service. Our team of
                 experienced opticians and eye care professionals use the latest technology and techniques to ensure that
                 every pair of glasses or contact lenses we provide is tailored to the individual needs of our clients.
                 We strive to create a welcoming and personalized experience for every customer who walks through our

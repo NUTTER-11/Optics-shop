@@ -10,7 +10,7 @@ export function TextRevealCardPreview() {
   return (
     <div className="flex items-center justify-center bg-[#0E0E10] h-[30rem] rounded-2xl w-full">
       <TextRevealCard
-        text="Want to explore  theWorld ?"
+        text="Want to explore <br /> theWorld ?"
         revealText="Step into a world of clarity and style"
       >
         <TextRevealCardTitle>

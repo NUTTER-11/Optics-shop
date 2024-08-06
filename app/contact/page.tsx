@@ -67,7 +67,7 @@ const Contact: FC = () => {
         </div>
         <div className="rounded-lg overflow-hidden">
           <Image
-            src="pic.jpg"
+            src="/address.jpg"
             width="600"
             height="400"
             alt="Contact Us"

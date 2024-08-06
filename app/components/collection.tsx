@@ -15,7 +15,7 @@ const ParentComponent = () => {
   };
 
   return (
-    <>
+    <div  >
       <div style={containerStyle}>
         <div style={{ marginLeft: '-19px', padding: '1px' }}>
           <ActionAreaCard image="sunglasses1.jpg" altText="glasses" title="Sunglasses" />
@@ -40,7 +40,7 @@ const ParentComponent = () => {
         </div>
         <MySlider id="slider4" images={sliderImages4} /> {/* Add unique id */}
       </div>
-    </>
+    </div>
   );
 };
 
