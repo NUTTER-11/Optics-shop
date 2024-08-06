@@ -1,0 +1,23 @@
+.slider-container {
+    background-color: #f0f0f0; /* Replace with your desired background color */
+    padding: 12px; /* Optional: add some padding around the slider */
+    border-radius: 10px; /* Optional: add border radius for rounded corners */
+    max-width: 880px; /* Set the maximum width for the container */
+    margin: 0 auto 0 auto; /* Center the container horizontally */
+    position: relative; /* Use relative positioning */
+    right: -55px; /* Adjust this value to move the container to the right */
+    top:  30px;
+  }
+  
+  .my-slide {
+    padding: 0; /* Adjust the value to control the spacing */
+  }
+  
+  .my-slide img {
+    width: 100%; /* Make the image take the full width of the slide */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 200px; /* Set the maximum width for the images */
+    display: block;
+    margin: 0 auto; /* Center the images within the slides */
+  }
+  
