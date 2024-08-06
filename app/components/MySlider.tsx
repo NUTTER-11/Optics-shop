@@ -5,7 +5,7 @@ import Splide from '@splidejs/splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import '@splidejs/react-splide/css';
 import './MySlider.css'; // Import the CSS file
-
+import Image from 'next/image';
 interface MySliderProps {
   images: string[];
   id: string; // Add an id prop
@@ -35,7 +35,7 @@ const MySlider = ({ images, id }: MySliderProps) => {
           <ul className="splide__list">
             {images.map((image, index) => (
               <li key={index} className="splide__slide my-slide">
-                <img src={image} alt={`Image ${index + 1}`} />
+                <Image src={image} alt={`Image ${index + 1}`} />
               </li>
             ))}
           </ul>

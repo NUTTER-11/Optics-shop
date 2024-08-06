@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link"
 import { FC, SVGProps } from "react"
 import { FloatingNavDemo } from '../components/FloatingNavDemo';
-
+import Image from 'next/image';
 const Contact: FC = () => {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
@@ -11,7 +11,7 @@ const Contact: FC = () => {
         <div className="space-y-4">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get in Touch</h1>
           <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Visit our optical shop or reach out to us through any of the following channels. We're here to help you find
+            Visit our optical shop or reach out to us through any of the following channels. We&apos;re here to help you find
             the perfect eyewear.
           </p>
           <div className="grid gap-4">
@@ -66,7 +66,7 @@ const Contact: FC = () => {
           </div>
         </div>
         <div className="rounded-lg overflow-hidden">
-          <img
+          <Image
             src="pic.jpg"
             width="600"
             height="400"

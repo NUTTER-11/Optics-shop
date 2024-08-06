@@ -73,7 +73,7 @@ const About: React.FC = () => {
               <h2 className="mb-4 text-3xl font-bold tracking-tight">Our History</h2>
               <p className="text-muted-foreground">
                 Clarity Optics was founded in 1985 by a team of passionate opticians who were committed to providing the
-                highest quality eyewear and eye care services to our local community. Over the years, we've grown to
+                highest quality eyewear and eye care services to our local community. Over the years, we&apos;ve grown to
                 become a trusted and respected name in the industry, known for our expertise, attention to detail, and
                 unwavering dedication to customer satisfaction.
               </p>
@@ -105,7 +105,7 @@ const About: React.FC = () => {
             <div className="bg-background p-6 shadow-sm transition-all hover:shadow-md">
               <h3 className="mb-4 text-xl font-bold">Sunglasses</h3>
               <p className="text-muted-foreground">
-                Protect your eyes from the sun's harmful UV rays with our selection of fashionable and functional
+                Protect your eyes from the sun&apos;s harmful UV rays with our selection of fashionable and functional
                 sunglasses, designed to complement any lifestyle.
               </p>
             </div>
