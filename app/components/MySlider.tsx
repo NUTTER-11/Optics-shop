@@ -35,7 +35,7 @@ const MySlider = ({ images, id }: MySliderProps) => {
           <ul className="splide__list">
             {images.map((image, index) => (
               <li key={index} className="splide__slide my-slide">
-                <Image src={image} alt={`Image ${index + 1}`} />
+                <Image src={image} alt={`Image ${index + 1}`} width={300} height={300} />
               </li>
             ))}
           </ul>
